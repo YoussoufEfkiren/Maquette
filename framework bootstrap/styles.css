@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F8F9FA;
+}
+header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: #F8F9FA;
+    font-size: x-large;
+}
+.logo img{
+    width: 100%;
+    
+    
+}
+.top{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+
+}
+.navbar{
+    width: 100%;
+    
+}
+
+.main{
+    width: 100%;
+    height: 60%;
+    
+    margin: 0 auto;
+}
+.main img {
+    border-radius: 20px;
+}
+.mid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+}
+
+.firsthalf img{
+    width: 100%;
+    padding: 15px;
+}
+.firsthalf hr{
+    width: 200px;
+}
+#num1{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    border: 2px solid black;
+}
+#num1 div{
+    padding: 20px;
+}
+#num2 div{
+    padding: 20px;
+}
+#num3 div{
+    padding: 20px;
+}
+#num2{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    border: 2px solid black;
+}
+#num3{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    
+}
+#p1{
+    border: 5px solid #000; /* Example border style */
+    padding: 10px; /* Optional padding to create space inside the box */
+    margin: 10px;
+    text-align: center;
+    
+}
+
+
+#p2{
+    border: 5px solid #000; /* Example border style */
+    padding: 10px; /* Optional padding to create space inside the box */
+    margin: 10px;
+    text-align: center;
+}
+
+.secondhalf{
+    
+    border: 2px solid black;
+    text-align: center;
+    margin: 15px;
+}
+#pics{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid black;
+    margin: 3px;
+}
+#pics img{
+    width: 50%;
+}
+
+#pics img{
+    border-radius: 50%;
+}
+#pic1{
+    margin: 5px;
+    border: 2px solid #000
+}
+#pic1 p {
+    margin: 3px;
+}
+#sign{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
